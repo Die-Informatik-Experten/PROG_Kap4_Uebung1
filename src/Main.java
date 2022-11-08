@@ -14,10 +14,10 @@ public class Main
     public static void main(String[] args)
     {
         /* Declaration of three Strings */
-        String firstString = new String("abc");
-        String secondString = new String("xyz");
-        String sameString = firstString;                //String with the same memory location as the first string (Object reference equality)
-        String sameString2 = new String("abc");  //String with the same content as the first string but different memory location (Object equality)
+        String firstString = "abc";
+        String secondString = "xyz";
+        String sameString = firstString;       //String with the same memory location as the first string (Object reference equality)
+        String sameString2 = "abc";            //String with the same content as the first string but different memory location (Object equality)
 
         /* Output of all Strings */
         System.out.println("First String: " + firstString);
